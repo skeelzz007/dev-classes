@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -o.031rem;
+    font-family: "Inter", sans-serif;
+}
+
+.card-container{
+    background-color: #f8f8f8;
+    margin: 4rem auto;
+    width: 32%;
+    height: auto;
+    border: solid  lightgrey;
+    border-width: 0.01875rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+.top-card-container{
+
+    width: 100%;
+    height: auto;
+}
+
+.card-heading{
+
+    width: fit-content;
+    height: auto;
+}
+
+.top-card-container h1{
+    font-size: 1rem;
+    color: #000;
+}
+
+.lorem-container{
+
+   width: 100%;
+   height: auto;
+}
+
+.lorem-container p{
+    font-size: 0.87rem;
+    color: #666;
+    line-height: 1.225rem;
+}
+
+.button-container{
+
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    background-color: #7033ff;
+    color: white;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Flex box */
