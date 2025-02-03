@@ -4,6 +4,7 @@
     box-sizing: border-box;
     letter-spacing: -o.031rem;
     font-family: "Inter", sans-serif;
+    line-height: 2rem;
     
 }
 .body {
@@ -192,26 +193,27 @@
     color: white;
  }
 
- .cta {
+ .primary-button {
     height: auto;
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: white;
     border: none;
     border-radius: 100rem;
     cursor: pointer;
-    min-width: 4rem;
+    min-width: 5rem;
 
  }
 
 
- .cta:hover {
+ .primary-button:hover {
     border: none;
     border-color: solid #2D7FEA 0.125rem;
     color: #113565;
+    background-color: whitesmoke;
  }
 
- .cta p {
+ .primary-button p {
     font-size: 1rem;
     font-weight: 400;
     color: #2D7FEA;
@@ -436,6 +438,7 @@
     height: auto;
     font-size: 3rem;
     font-weight: 500;
+    line-height: 1;
 
 }
 
@@ -563,4 +566,228 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    column-gap: 3rem;
  }
+
+.bento {
+
+    width: 100%;
+    max-width: auto;
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: none;
+    border: solid #dbdbdbc7 0.125rem;
+}
+
+.bento-image {
+
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+
+.bento-footer {
+
+  
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+
+.bento:hover {
+    border: none;
+    border: solid 0.1rem #a3a0a0b7; 
+   
+ }
+
+
+ .category-bento P {
+
+    width: fit-content;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .description-bento p {
+
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #5f6368;
+
+
+ }
+
+ .threecard-container {
+    width: 100%;
+    height: 40rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+
+ }
+
+ .bento-three {  
+    width: 100%;
+    max-width: auto;
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: none;
+    border: solid #dbdbdbc7 0.125rem;
+ }
+
+
+
+ .threebento-image {
+
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: none;
+    border-radius: 0.5rem;
+
+ }
+
+
+
+.responsility-section {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.headname h2 {
+
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.desc-resp {
+    width: 50%;
+    height: auto;
+    font-size: 2rem; 
+    font-weight: 400;
+    text-align: center;
+    text-align: center;
+    color: #5f6368;
+    
+}
+
+.doublecard-container { 
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+
+.explore-teams-container {
+
+    width: 100%;
+    height: auto;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 3rem;
+}
+
+.explore-copy-container p {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.links-container {
+
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-links-container {
+
+    width: 100%;
+    height: auto;
+}
+
+
+.logo-and-name {
+
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border: solid #dbdbdbc7 0.125rem;
+    border-radius: 0.5rem;
+}
+
+.logo-and-name:hover {
+
+    border: none;
+    border: solid 0.1rem #a3a0a0b7; 
+}
+
+
+.right-links-container {
+
+    width: 100%;
+    height: auto;
+}
+
+.name {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-self: center;
+}
+
+.logo {
+
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: start;
+}
